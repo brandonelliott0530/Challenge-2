@@ -1,0 +1,219 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black
+}
+body{
+    margin: 0;
+}
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px 10px 10px 10px;
+    background-color:rgb(79, 73, 155) ;
+    
+}
+
+h1 {
+    font-size: 48px;
+    top: -18px;
+    text-decoration: none;    
+    background-color: rgb(79, 73, 155);    
+    padding-right: 5px;
+    padding-left: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+Nav {
+    background-color: rgb(79, 73, 155);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    background-color: rgb(79, 73, 155);
+}
+
+.nav {
+    padding: 0 20px;
+    background-color: rgb(79, 73, 155);
+}
+
+.a1 {
+    background-color: rgb(79, 73, 155);
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.image {
+    height: 600px;
+    width: 100%;
+}
+
+section {
+    border: 5px solid lime;
+    border-radius: 25px;
+    margin-right: 350px;
+    padding-left: 75px;
+    padding-top: 5px;
+    margin-left: 35px;
+    box-shadow: 5px 5px 15px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+
+}
+
+h2 {
+    font-size: 32px;
+}
+
+article{
+    font-size: 22px;
+    line-height: 1;
+    display: flex;
+    flex-flow: row wrap;
+    color: white;
+    margin-bottom: auto;
+    padding: 15px;
+    
+}
+
+#work {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: flex-start;
+    
+    
+
+}
+
+.card-container1 {
+    border: 5px (solid black);
+    border-radius: 20px; 
+    padding: 10px;  
+    box-shadow: 5px 5px 15px;
+    font-size: 26px;
+    max-width: 45%;
+    margin-left: 35px;
+    width: 950px;
+    height: 400px;
+    background-image: url(wp8371852-minimal-code-wallpapers.jpg);
+    background-size: 800px;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 50px
+}
+
+.card-container1:hover {
+    box-shadow: 8px 9px 15px rgb(79, 73, 155)
+}
+
+
+
+.card-title1 {
+    border: 3px solid rgb(79, 73, 155);
+    border-radius: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: -45px;
+    background-color: white;
+    color: black;
+}
+
+.card-subtitle1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: transparent;
+    color: white;
+    
+    
+}
+
+.card-container {
+    border: 5px (solid black);
+    border-radius: 20px; 
+    padding: 10px;  
+    box-shadow: 15px 15px 15px;
+    font-size: 26px;
+    max-width: 45%;
+    margin-left: 35px;
+    width: 500px;
+    height: 400px;
+    background-image: url(wp8371852-minimal-code-wallpapers.jpg);
+    background-size: 625px;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    transition:all 0.5s ease-in-out;
+
+}
+
+.card-container:hover {
+    box-shadow: 8px 9px 15px rgb(79, 73, 155)
+}
+
+.card-title {
+    border: 3px solid  lime;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: -45px;
+    background-color: white;
+    color: black;
+    }
+    
+    .card-subtitle {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        font-size: 18px;
+        line-height: 1.5;
+        background-color: transparent;
+        color: white;
+        
+    }
+    
+.contactme{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    padding: 35px;
+    
+}
+
+.card-container2{
+    border: 2px solid  lime;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.card-content2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 24px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 16px;
+    color: white;
+    
+}
