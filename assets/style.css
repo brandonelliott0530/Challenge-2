@@ -8,25 +8,21 @@ body{
 header {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: flex-end;
     padding: 10px 10px 10px 10px;
     background-color:rgb(79, 73, 155) ;
     
 }
 
-h1 {
-    font-size: 48px;
-    top: -18px;
-    text-decoration: none;    
-    background-color: rgb(79, 73, 155);    
-    padding-right: 5px;
-    padding-left: 5px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.header-img {
+    background-color: rgb(79, 73, 155);
+    
 }
 
 Nav {
     background-color: rgb(79, 73, 155);
+
 }
 
 ul {
@@ -71,6 +67,15 @@ section {
 
 h2 {
     font-size: 32px;
+    color: white;
+}
+
+.my-pic{
+    display: flex;
+    flex-direction: row;
+    height: 35%;
+    width: 35%;
+    
 }
 
 article{
@@ -217,3 +222,4 @@ footer{
     color: white;
     
 }
+
